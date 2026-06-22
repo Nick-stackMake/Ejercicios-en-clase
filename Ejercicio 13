@@ -1,0 +1,13 @@
+Algoritmo PersonasMayores
+// Define la variable edad como un entero y obtiene input de user
+	Definir edad Como Entero
+	Escribir "ingresar edad"
+	leer edad
+// Evalua la variable edad si cumple con la primera condicion sino d
+	si edad >= 18 Entonces
+		Escribir "Puede participar en la encuesta"
+	SiNo
+		Escribir "No puede participar en la encuesta"
+	FinSi
+	
+FinAlgoritmo
