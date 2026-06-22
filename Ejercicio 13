@@ -1,0 +1,25 @@
+Algoritmo PersonasMayores
+
+	Definir Herdy, Julian, Kevin Como Entero
+	Escribir "ingresar edades"
+	leer Herdy, Julian, Kevin
+
+	si Herdy >= 20 Entonces
+		Escribir "Herdy Puede votar"
+	SiNo
+		Escribir " Herdy No puede votar"
+	FinSi
+	
+	si Julian >= 20 Entonces
+		Escribir "Julian Puede votar"
+	SiNo
+		Escribir "Julian No puede votar"
+	FinSi
+	
+	si Kevin >= 20 Entonces
+		Escribir "Kevin Puede votar"
+	SiNo
+		Escribir "Kevin No puede votar"
+	FinSi
+	
+FinAlgoritmo
