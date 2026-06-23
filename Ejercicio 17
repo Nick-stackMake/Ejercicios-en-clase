@@ -1,0 +1,10 @@
+Algoritmo arreglo3num
+	n <- 1;
+	i <- 1
+	Dimension numeros[n]
+	Mientras  i <= 3 Hacer
+		Escribir "introduzca un elemento", i, " del vector de numeros";
+		leer numeros[n]
+		i <- i + 1
+	FinMientras
+FinAlgoritmo
