@@ -1,0 +1,12 @@
+Algoritmo contar_hasta_33
+	Para  i <- 0 Hasta 33 Con Paso 3 Hacer
+		Escribir i
+	FinPara
+	
+	Escribir "presione para tecla para limpiar pantalla"
+	
+	Esperar Tecla
+	
+	Limpiar Pantalla
+	
+FinAlgoritmo
