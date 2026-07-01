@@ -1,4 +1,4 @@
-// Función que recibe por VALOR (Copia)
+// Función que recibe por REFERENCIA (Suma)
 SubProceso modificarPorValor ( numeroCopia Por Valor )
 	numeroCopia <- numeroCopia + 50;
 	Escribir "Dentro de la función (Por Valor): ", numeroCopia;
@@ -15,7 +15,7 @@ Proceso Principal
 	
 	// CASO 1: Paso por Valor
 	miNumero <- 10;
-	Escribir "--- PRUEBA POR VALOR ---";
+	Escribir "--- PRUEBA POR REFERENCIA ---";
 	Escribir "Antes de la función: ", miNumero;
 	modificarPorReferencia(miNumero);
 	// La variable original permanece intacta 
